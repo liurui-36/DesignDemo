@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sdky.designdemo.MainActivity">
+
+    <Button
+        android:id="@+id/TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text_Input_Layout" />
+
+    <Button
+        android:id="@+id/FloatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Floating_Action_Button" />
+
+    <Button
+        android:id="@+id/TabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tab_Layout" />
+
+    <Button
+        android:id="@+id/NavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NavigationView" />
+
+    <Button
+        android:id="@+id/CoordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CoordinatorLayout" />
+
+    <Button
+        android:id="@+id/BottomSheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bottom_Sheet" />
+
+</LinearLayout>
